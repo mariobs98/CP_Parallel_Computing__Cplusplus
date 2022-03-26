@@ -1,0 +1,9 @@
+Compilación→
+
+g++ MedianasMultiplos_sec.cpp Ordenacion_sec.cpp -o Medianas_sec
+
+g++ MedianasMultiplos_ocl.cpp ModulosOpenCL.cpp ModulosOpenCL.h -o “nombre” -lOpenCL
+
+mpic++ MedianasMultiplos_ocl_mpi.cpp ModulosOpenCL.cpp ModulosOpenCL.h -o ”nombre” -lOpenCL
+
+Archivo Ordenacion.cl en el mismo directorio también.
